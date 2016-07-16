@@ -51,10 +51,10 @@ The number of items in the FlowBox which can be selected is configurable via::
 
 The *mode* value can be set to:
 
-* ``Gtk.Selection.NONE`` - prevent any selection being made.
-* ``Gtk.Selection.SINGLE`` - allow only a single selected item.
-* ``Gtk.Selection.BROWSE`` - allow one or more selected items.
-* ``Gtk.Selection.MULTIPLE`` - allow multiple selected items.
+* ``Gtk.SelectionMode.NONE`` - prevent any selection being made.
+* ``Gtk.SelectionMode.SINGLE`` - allow only a single selected item.
+* ``Gtk.SelectionMode.BROWSE`` - allow one or more selected items.
+* ``Gtk.SelectionMode.MULTIPLE`` - allow multiple selected items.
 
 =======
 Signals
